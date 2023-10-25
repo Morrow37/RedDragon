@@ -1,9 +1,9 @@
 const autoReply = (msg) => {
     let R = ''
-    if(msg.match(/hi|zabi|hey|hello|halo|helow|හලෝ/gi)){
+    if(msg.match(/hi|z|hey|hello|halo|helow|හලෝ/gi)){
         R = "🤓Hey, I am aqua👽"
     }
-    if(msg.match(/😒/gi)){
+    if(msg.match(/😒/zabi)){
         R = "😒mok"
     }
     if(msg.match(/🥲/gi)){
