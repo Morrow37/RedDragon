@@ -21,7 +21,7 @@ const autoReply = (msg) => {
     if(msg.match(/ඔව්|ow /gi)){
         R = "😌dodi gay"
     }
-    if(msg.match(/ගියා|giya|echcharay|එච්චරයි/gi)){
+    if(msg.match(/chaykh|giya|echcharay|එච්චරයි/gi)){
         R = "😌respect for chaykh..."
     }
     if(msg.match(/අඩෝ|ado/gi)){
@@ -51,7 +51,7 @@ const autoReply = (msg) => {
     if(msg.match(/gn|night|නයිට්/gi)){
         R = "🌚tsbah 3la khir👻👻"
     }if(msg.match(/nikan|නිකං|නිකම්/gi)){
-        R = "🤫නිකං ඉන්නෙපා ඇඳුමක් ඇඳගන්න."
+        R = "🤫."
     }
     if(msg.match(/lamayo|ළමයෝ|ලමයෝ/gi)){
         R = "☺️❤️"
