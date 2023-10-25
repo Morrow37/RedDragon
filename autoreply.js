@@ -6,8 +6,8 @@ const autoReply = (msg) => {
     if(msg.match(/😒/zabi)){
         R = "😒mok"
     }
-    if(msg.match(/🥲/gi)){
-        R = "🥲💔"
+    if(msg.match(/walid/gi)){
+        R = "you will get kicked if you did it again"
     }
     if(msg.match(/ane|අනේ|අනෙ/gi)){
         R = "🤭mok🤫😂"
@@ -16,7 +16,7 @@ const autoReply = (msg) => {
         R = "😒khask zab?💔"
     }
     if(msg.match(/na|නැ|නෑ/gi)){
-        R = "zabaltarma?"
+        R = "zabalmtarma?"
     }
     if(msg.match(/ඔව්|ow /gi)){
         R = "😌dodi gay"
